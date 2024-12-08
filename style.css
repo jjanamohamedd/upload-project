@@ -1,0 +1,89 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #24353f;
+}
+h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+
+#container {
+    background: #fff;
+    padding: 20px 25px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+    text-align: center;
+    background-color: #24353f;
+
+}
+#container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%; 
+    padding: 10px; 
+    border: 1px solid #17a2b8; 
+    border-radius: 5px; 
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff; 
+}
+
+button {
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+    width: 90%; 
+    color: #17a2b8; 
+    background-color: transparent; 
+    border: 1px solid #17a2b8; 
+}
+
+button:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.link
+{
+    color:#fff;
+}
+.link a{
+    color:#fff;
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+}
